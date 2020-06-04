@@ -1,7 +1,7 @@
 import java.util.*;
 /*
  * Programmers coding test practice
- * exercise question(math)
+ * exercise question(math)(level 2)
  * Problem name : 124나라의 숫자
  */
 
@@ -27,7 +27,6 @@ class Solution {
          while(!s.empty()){
             answer.append(s.pop());
         }
-
 
         return answer+"";
     }
